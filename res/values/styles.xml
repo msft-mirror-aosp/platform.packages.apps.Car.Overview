@@ -40,4 +40,8 @@ limitations under the License.
         <item name="android:scaleType">fitCenter</item>
         <item name="android:clickable">true</item>
     </style>
+
+    <style name="PermissionsRequest" parent="@style/CarBody2">
+        <item name="android:textColor">@color/car_grey_50</item>
+    </style>
 </resources>

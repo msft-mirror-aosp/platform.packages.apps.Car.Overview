@@ -51,7 +51,7 @@ limitations under the License.
             android:layout_height="wrap_content"
             android:text="@string/permission_request_string"
             android:background="?android:attr/selectableItemBackground"
-            style="@style/CarBody2"/>
+            style="@style/PermissionsRequest" />
 
     <android.support.car.ui.PagedListView
             android:id="@+id/list_view"
