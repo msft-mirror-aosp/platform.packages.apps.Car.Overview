@@ -26,7 +26,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.car.ui.PagedListView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Gravity;
@@ -37,6 +36,7 @@ import com.android.car.stream.IStreamConsumer;
 import com.android.car.stream.IStreamService;
 import com.android.car.stream.StreamCard;
 import com.android.car.stream.StreamConstants;
+import com.android.car.view.PagedListView;
 
 import java.util.List;
 

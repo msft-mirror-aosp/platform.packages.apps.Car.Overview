@@ -26,8 +26,8 @@ LOCAL_OVERRIDES_PACKAGES += Launcher2 Launcher3
 
 LOCAL_MODULE_TAGS := optional
 
+include packages/apps/Car/libs/car-apps-common/car-apps-common.mk
 include packages/apps/Car/libs/car-stream-ui-lib/car-stream-ui-lib.mk
-include packages/services/Car/car-support-lib/car-support.mk
 
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
 LOCAL_STATIC_JAVA_LIBRARIES += car-stream-lib
