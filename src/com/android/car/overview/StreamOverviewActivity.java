@@ -296,7 +296,7 @@ public class StreamOverviewActivity extends Activity {
         return bound;
     }
 
-    private class DefaultDecoration extends PagedListView.Decoration {
+    private class DefaultDecoration extends PagedListView.DividerDecoration {
         public DefaultDecoration(Context context) {
             super(context);
         }
