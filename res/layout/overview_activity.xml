@@ -59,5 +59,6 @@ limitations under the License.
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone"
-            app:offsetRows="true"/>
+            app:offsetRows="true"
+            app:showDivider="false" />
 </FrameLayout>
