@@ -83,7 +83,7 @@ public class StreamOverviewActivity extends Activity {
 
         mPageListView = (PagedListView) findViewById(R.id.list_view);
         mPageListView.setAdapter(mAdapter);
-        mPageListView.setDefaultItemDecoration(new DefaultDecoration(this /* context */));
+        mPageListView.addItemDecoration(new DefaultDecoration());
         mPageListView.setLightMode();
 
         int listTopMargin = statusBarHeight
@@ -296,14 +296,7 @@ public class StreamOverviewActivity extends Activity {
         return bound;
     }
 
-    private class DefaultDecoration extends PagedListView.DividerDecoration {
-        public DefaultDecoration(Context context) {
-            super(context);
-        }
-
-        @Override
-        public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {}
-
+    private class DefaultDecoration extends RecyclerView.ItemDecoration {
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
                 RecyclerView.State state) {
